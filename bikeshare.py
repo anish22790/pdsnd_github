@@ -181,6 +181,7 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+#Adding option for user to see 5 lines of raw data
 def display_raw_data(df):
     data = 0
     while True:
